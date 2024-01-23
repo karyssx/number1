@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">IT Serwis Curyło</div>
+        <nav>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#services">Usługi</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>O mnie</h2>
+            <p>Hej!</p>
+            <p>
+                Nazywam się Oliwier, mam 18 lat i obecnie nadal się uczę.Chodzę do Technikum na kierunek informatyczny.Moja pasja
+                do branży IT rozpoczęła się w bardzo młodym wieku gdzie składanie komputerów stacjonarnych bardzo mnie zafascynowało.
+                Stronę którą teraz przeglądasz zrobiłem sam abys w jakiś sposób mógł uwierzyć, że trafiłeś w dobre ręce.
+                Zapraszam do skorzystania z moich usług!
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Usługi</h2>
+            <div class="service">
+                <h3>Projektowanie Graficzne</h3>
+                <p>Tworzymy kreatywne projekty graficzne, które przyciągają uwagę.</p>
+            </div>
+            <div class="service">
+                <h3>Developing Stron Internetowych</h3>
+                <p>Zajmujemy się tworzeniem responsywnych stron internetowych zgodnych z najnowszymi trendami.</p>
+            </div>
+            <div class="service">
+                <h3>Tworzenie modeli 3D</h3>
+                <p>Zajmujemy się tworzeniem modeli 3D do celów komercyjnych jak i wydruku 3D</p>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Portfolio</h2>
+            <div class="image-gallery">
+                <img src="https://via.placeholder.com/150" alt="Obraz 1">
+                <img src="https://via.placeholder.com/150" alt="Obraz 2">
+                <img src="https://via.placeholder.com/150" alt="Obraz 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <form>
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Moja Kreatywna Strona. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
